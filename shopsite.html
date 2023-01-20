@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>SHOP LIFT UP INC</title>
+		<style></style>
+		<link rel = "stylesheet" href = "shopcss.css"/>
+
+		
+	</head>
+	
+	<body onload = "initialize();">
+
+		<div class = "logo"> <img src = "logoINC.jpg" style = "width:200px;height:150px;" /> </div>
+
+		<form class = "productinput" style = "float:left;">
+			Input Product: <input name = "produce" type = "text" />
+		</form>
+
+		<form class = "fillme" style = "float:right;">
+			Input Product Number: <input name = "mover" type = "number" />
+		</form>
+
+		<button class = "add" onclick = "addItem();">Add Product</button>
+		<button class = "delete" onclick = "eliminateItem();">Delete Item</button>
+
+		<div class = "audie">
+			<audio controls>
+				<source src = "elevatormusic.mp3" type="audio/mpeg">	
+			</audio>
+
+		</div>
+
+
+		<div class = "griddy">
+			<div class = "upimage"> <img id = "uppity" src = "uparrow.png" style = "width:50px;height:50px;" /> </div>
+			<div class = "downimage"><img id = "downer" src = "downarrow.png" style = "width:50px;height:50px;" /> </div>
+		</div>
+
+		<div class = "advertisement">
+			<video width="320" height="240" controls muted>
+				<source src="breadadvert.mp4" type="video/mp4">
+		  	</video>
+		</div>
+
+		<hr />
+		<h1>Your Grocery List</h1>
+		<div class = "grocery"></div>
+
+
+		<script src = "shopscript.js"></script>
+	</body>
+</html>

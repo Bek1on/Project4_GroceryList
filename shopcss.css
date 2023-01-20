@@ -1,0 +1,52 @@
+div
+{
+    text-align: center;
+    font-size: 20pt;
+}
+
+.audie
+{
+    text-align: center;
+}
+
+.advertisement
+{
+    text-align: center;
+}
+
+h1
+{
+    text-align: center;
+}
+
+.upimage
+{
+    grid-area: 1 / 1 / 2 / 2;
+
+}
+
+.downimage
+{
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+.griddy
+{
+    display: grid;
+    justify-content: end;
+}
+
+.delete
+{
+    float: right;
+}
+
+body
+{
+    background-color: rgb(173, 216, 230)
+}
+
+.logo
+{
+    text-align: center;
+}
